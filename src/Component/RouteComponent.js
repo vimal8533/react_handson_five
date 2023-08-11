@@ -11,12 +11,12 @@ const RouteComponent =()=>{
 
     return(
         
-        
+        <>
         <Routes>
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/hoc" element={<HocDisplay/>}></Route>
                 <Route path="/pure_component" element={<PureComponent/>}></Route>
-
+    </>
           
         
         
