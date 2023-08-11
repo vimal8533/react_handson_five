@@ -16,6 +16,7 @@ const RouteComponent =()=>{
                 <Route path="/" element={<Home/>}/>
                 <Route path="/hoc" element={<HocDisplay/>}/>
                 <Route path="/pure_component" element={<PureComponent/>}/>
+        </Routes>
         </>
           
         
