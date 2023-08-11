@@ -1,0 +1,31 @@
+.pureImage{
+    width: 600px;
+    height: 550px;
+    background-image: url(../Screenshot\ \(50\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pureDisplay{
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 25px;
+}
+.pureDisplay2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+@media only screen and (min-width:350px) and (max-width:550px){
+    .pureImage{
+        width: 65vw;
+        height: 300px;
+        background-size: contain;
+    }
+    .pureDisplay{
+        align-items: center;
+    }
+    
+}

@@ -1,0 +1,13 @@
+.Increase{
+    width: 150px;
+    height: 50px;
+    background-color: #91C8E4;    
+    border-radius: 20px;
+    font-weight: bold;
+}
+.increase__example{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

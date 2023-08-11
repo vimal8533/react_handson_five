@@ -1,0 +1,30 @@
+.hoc__display{
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.clickAndHover{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+.hocImage{
+    width: 600px;
+    height: 550px;
+    background-image: url(..//Screenshot\ \(48\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width:350px) and (max-width:550px){
+    .hocImage{
+        width: 75vw;
+        height: 300px;
+        background-size: contain;
+    }
+    .hoc__display{
+        width: 90vw;
+    }
+}
