@@ -10,7 +10,7 @@ import HocDisplay from "./HocDisplay";
 const RouteComponent =()=>{
 
     return(
-        <>
+        
         
         <Routes>
                 <Route path="/" element={<Home/>}></Route>
@@ -19,7 +19,7 @@ const RouteComponent =()=>{
 
           
         
-        </>
+        
     )
 
 }
